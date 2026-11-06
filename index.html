@@ -228,11 +228,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 @media (max-width:860px){.teach{grid-template-columns:1fr}.teach figure{max-width:420px}}
 
 /* bonus */
-.bonus{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,3vw,36px)}
+.bonus{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,36px)}
 .bonus figure{margin:0;display:grid;gap:14px;align-content:start}
 .bonus img{aspect-ratio:16/10;object-fit:cover;width:100%;background:var(--paper-2)}
 .bonus h3{font-size:26px}
 .bonus p{color:var(--ink-2)}
+@media (max-width:980px){.bonus{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:720px){.bonus{grid-template-columns:1fr}}
 
 /* price */
@@ -532,6 +533,10 @@ fieldset{border:0;margin:0;padding:0;display:grid;gap:8px}
       <p>Quyidagilar o‘quvchilarning haqiqiy ishlari: akvarel, qalam va marker bilan qog‘ozda chizilgan to‘liq kompozitsiyalar.</p>
     </div>
     <div class="gal">
+      <figure><img src="img/w13.jpg" alt="O‘quvchi eskizi: charm kurtkalar va shortilardagi kuzgi uch model" width="825" height="1100" loading="lazy"><figcaption>Kuzgi obrazlar</figcaption></figure>
+      <figure><img src="img/w10.jpg" alt="O‘quvchi eskizi: mo‘yna paltolardagi uch model" width="825" height="1138" loading="lazy"><figcaption>Mo‘yna va qatlamlar</figcaption></figure>
+      <figure><img src="img/w11.jpg" alt="O‘quvchi eskizi: tilla va qora kostyumlardagi uch model" width="825" height="1128" loading="lazy"><figcaption>Tilla rang, kostyum</figcaption></figure>
+      <figure><img src="img/w14.jpg" alt="O‘quvchi eskizi: figura va qizil chiziqli sahna kostyumi" width="825" height="1095" loading="lazy"><figcaption>Figura va kostyum</figcaption></figure>
       <figure><img src="img/w4.jpg" alt="O‘quvchi eskizi: kuzgi kolleksiyadagi uch model" width="825" height="1100" loading="lazy"><figcaption>Kompozitsiya, akvarel</figcaption></figure>
       <figure><img src="img/w5.jpg" alt="O‘quvchi eskizi: binafsha kechki ko‘ylak" width="825" height="1100" loading="lazy"><figcaption>Shifon va burmalar</figcaption></figure>
       <figure><img src="img/w2.jpg" alt="O‘quvchi eskizi: printli liboslardagi uch model" width="825" height="1100" loading="lazy"><figcaption>Print va tekstura</figcaption></figure>
@@ -597,11 +602,12 @@ fieldset{border:0;margin:0;padding:0;display:grid;gap:8px}
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Bonuslar</p>
-      <h2>Kitob, sketchbuk va <em class="it">o‘quv qurollari</em></h2>
+      <h2>Kitob, o‘quv qurollari va <em class="it">sertifikat</em></h2>
     </div>
     <div class="bonus">
       <figure><img src="img/book.jpg" alt="KAAYBA fashion illyustratsiya kitobi va sketchbuklar" width="690" height="660" loading="lazy"><h3>KAAYBA kitoblari</h3><p>Muallifiy illyustratsiya qo‘llanmasi va sketchbuk. Har bosqich chizib ko‘rsatilgan, darslar shu kitob asosida o‘tiladi.</p></figure>
       <figure><img src="img/tools.jpg" alt="Akvarel, guash, qalamlar, mo‘yqalamlar va qog‘ozlar to‘plami" width="1100" height="584" loading="lazy"><h3>O‘quv qurollari to‘plami</h3><p>Akvarel, qalamlar, mo‘yqalamlar va qog‘oz: birinchi darsdan boshlash uchun kerakli hamma narsa.</p></figure>
+      <figure><img src="img/cert.jpg" alt="KAAYBA Fashion School sertifikati, lenta bilan bog‘langan ramkada" width="558" height="349" loading="lazy"><h3>Maxsus sertifikat</h3><p>Kursni muvaffaqiyatli tamomlagan va eng yaxshi natija ko‘rsatgan o‘quvchilarga KAAYBA Fashion School maxsus sertifikati beriladi.</p></figure>
     </div>
   </div>
 </section>
@@ -662,6 +668,7 @@ fieldset{border:0;margin:0;padding:0;display:grid;gap:8px}
       <details><summary>Vazifalarimni kim tekshiradi?<span class="mx" aria-hidden="true"></span></summary><p>Ustozning o‘zi. Har bir o‘quvchining ishi alohida ko‘riladi, xatolar rasm ustida chizib ko‘rsatiladi va yozma fikr beriladi.</p></details>
       <details><summary>Bo‘lib to‘lash mumkinmi?<span class="mx" aria-hidden="true"></span></summary><p>Ha, oyma-oy bo‘lib to‘lash mumkin. To‘lov karta orqali ham qabul qilinadi.</p></details>
       <details><summary>Nega boshqa kurslardan qimmatroq?<span class="mx" aria-hidden="true"></span></summary><p>Bu kursda video darslar professional suratga olingan, nazariya va biznes bo‘yicha jonli darslar narx ichida, har bir ish ustozning o‘zi tomonidan tekshiriladi. Kitob va o‘quv qurollari ham bonus sifatida beriladi.</p></details>
+      <details><summary>Sertifikat beriladimi?<span class="mx" aria-hidden="true"></span></summary><p>Ha. Kursni muvaffaqiyatli tamomlagan va yaxshi natija ko‘rsatgan o‘quvchilarga KAAYBA Fashion School maxsus sertifikati beriladi.</p></details>
       <details><summary>Kurs faqat qizlar uchunmi?<span class="mx" aria-hidden="true"></span></summary><p>Ha, KAAYBA Fashion School faqat ayol-qizlar bilan ishlaydi. Onlayn kursga 16 yoshdan katta o‘quvchilar qabul qilinadi.</p></details>
     </div>
   </div>
